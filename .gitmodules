@@ -30,3 +30,15 @@
     path = bundle/vim-surround
     url = git://github.com/tpope/vim-surround.git
     ignore = dirty
+[submodule "bundle/vim-autoclose"]
+    path = bundle/vim-autoclose
+    url = https://github.com/Townk/vim-autoclose.git
+    ignore = dirty
+[submodule "bundle/supertab"]
+    path = bundle/supertab
+    url = https://github.com/ervandew/supertab.git
+    ignore = dirty
+[submodule "bundle/vim-airline"]
+    path = bundle/vim-airline
+    url = https://github.com/bling/vim-airline.git
+    ignore = dirty

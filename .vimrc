@@ -66,6 +66,10 @@ endif
 
 let g:syntastic_javascript_checkers = ['eslint']
 
+"Airline Configuration
+let g:airline_powerline_fonts=0
+let g:airline_theme='light'
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local

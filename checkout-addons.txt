@@ -1,0 +1,3 @@
+Bufferaddons:
+    vim-airline
+    buffet
