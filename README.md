@@ -14,4 +14,8 @@ git submodule update
 Dann ist das Modul wieder da
 
 
+## Alle Module
+Um alle Module wieder herzustellen kann man die Module auch mit Wildcard holen:
 
+git submodule init bundle/*
+git submodule update bundle/*
