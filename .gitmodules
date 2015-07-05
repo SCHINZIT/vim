@@ -47,20 +47,26 @@
     url = https://github.com/altercation/vim-colors-solarized.git
     ignore = dirty
 [submodule "bundle/vim-sensible"]
-	path = bundle/vim-sensible
-	url = https://github.com/tpope/vim-sensible.git
+    path = bundle/vim-sensible
+    url = https://github.com/tpope/vim-sensible.git
+    ignore = dirty
 [submodule "bundle/vim-json"]
-	path = bundle/vim-json
-	url = https://github.com/elzr/vim-json.git
+    path = bundle/vim-json
+    url = https://github.com/elzr/vim-json.git
+    ignore = dirty
 [submodule "bundle/vim-jsx"]
-	path = bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
+    path = bundle/vim-jsx
+    url = https://github.com/mxw/vim-jsx.git
+    ignore = dirty
 [submodule "bundle/vim-ragtag"]
-	path = bundle/vim-ragtag
-	url = https://github.com/tpope/vim-ragtag.git
+    path = bundle/vim-ragtag
+    url = https://github.com/tpope/vim-ragtag.git
+    ignore = dirty
 [submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = https://github.com/tpope/vim-rails.git
+    path = bundle/vim-rails
+    url = https://github.com/tpope/vim-rails.git
+    ignore = dirty
 [submodule "bundle/vim-bundler"]
-	path = bundle/vim-bundler
-	url = git://github.com/tpope/vim-bundler.git
+    path = bundle/vim-bundler
+    url = git://github.com/tpope/vim-bundler.git
+    ignore = dirty
