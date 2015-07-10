@@ -14,7 +14,7 @@ noremap <right> <NOP>
 
 filetype plugin indent on
 filetype plugin on
-set tabstop=2 noexpandtab shiftwidth=2 softtabstop=2
+set tabstop=2 expandtab shiftwidth=2
 set scrolloff=2
 set laststatus=2
 set nocompatible
