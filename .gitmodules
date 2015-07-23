@@ -74,3 +74,7 @@
 	path = bundle/apiblueprint.vim
 	url = https://github.com/kylef/apiblueprint.vim.git
 	ignore = dirty
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = git://github.com/klen/python-mode.git
+	ignore = dirty

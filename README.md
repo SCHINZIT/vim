@@ -3,6 +3,14 @@
 # Submodules
 
 Die meisten Addons sind als Submodule hinzugefügt und können nach einem erneuten checkout wiedergeholt werden
+git submodule add git:/repo bundle/name
+In .gitmodules bei jeder Sektion hinzufügen: ignore = dirty
+Sieht dann so aus: 
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+	ignore = dirty
+
 
 Beispiel nerdtree:
 
