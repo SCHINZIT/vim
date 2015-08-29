@@ -9,6 +9,12 @@ git submodule update bundle/Vundle.vim
 
 vim +PluginInstall +qall
 
+!! You Complete Me !!
+
+Für das Addon You Complete Me müssen noch folgende Schritte unternommen werden:
+1.) apt-get install python-dev build-essential cmake
+2.) cd ~/.vim/bundle/YouCompleteMe
+3.) ./install.py
 
 # OLD DEPRECATED
 
