@@ -1,9 +1,30 @@
-" Pathogen configuration
+" vundle configuration
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
 
-runtime autoload/pathogen.vim
-call pathogen#infect()
-call pathogen#helptags()
-set si
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-sensible'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'godlygeek/tabular'
+Plugin 'bling/vim-airline'
+Plugin 'moll/vim-node'
+Plugin 'klen/python-mode'
+Plugin 'kylef/apiblueprint.vim'
+Plugin 'Townk/vim-autoclose'
+Plugin 'tpope/vim-bundler'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails'
+Plugin 'pangloss/vim-javascript'
+Plugin 'elzr/vim-json'
+Plugin 'mxw/vim-jsx'
+Plugin 'tpope/vim-ragtag'
+Plugin 'tpope/vim-surround'
+
+call vundle#end()
 
 " Disble Bell
 set noeb vb t_vb=

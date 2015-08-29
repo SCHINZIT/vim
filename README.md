@@ -1,5 +1,17 @@
 # VIM Verzeichnis mit allen Modulen etc
 
+## Pathogen auf Vundle umgestellt
+
+nach dem Checkout einfach nur:
+
+git submodule init bundle/Vundle.vim
+git submodule update bundle/Vundle.vim
+
+vim +PluginInstall +qall
+
+
+# OLD DEPRECATED
+
 # Submodules
 
 Die meisten Addons sind als Submodule hinzugefügt und können nach einem erneuten checkout wiedergeholt werden
