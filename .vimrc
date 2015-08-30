@@ -47,8 +47,11 @@ set termencoding=utf-8
 set omnifunc=syntaxcomplete#Complete
 syntax on
 
+" Colorscheme
+" vividchalk.vim tomorrow-night-eighties2.vim ubloh.vim professional.vim candycode.vim warm-neon.vim monokai-soft.vim base16-bright.vim monokai-cobalt.vim seashell.vim hemisu.vim emacs.vim seafoam-pastel-dark.vim autumn.vim clarity.vim earthburn.vim idle-fingers.vim django-green.vim base16-mocha.vim base16-solarized.vim darkslategray.vim ir_black.vim neon.vim dimmed-storm.vim feel-good.vim LightTan.vim nouba.vim solarized-dark.vim base16-default.vim base16-ocean.vim winter.vim base16-eighties.vim base16-pop.vim caramel.vim herald.vim monokai-easy.vim trivial256.vim
+
 set background=dark
-colorscheme professional
+colorscheme candycode
 
 if has("autocmd")
   filetype plugin indent on
@@ -59,10 +62,23 @@ set showmatch		" Show matching brackets.
 set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 
+" Syntastic settings
 let g:syntastic_javascript_checkers = ['eslint']
 
+" YouCompleteMe Settings
 let g:ycm_auto_trigger = 0
 let g:ycm_collect_identifiers_from_tags_files = 1
+
+" Tab navigation shortcuts
+nnoremap th  :tabfirst<CR>
+nnoremap tj  :tabnext<CR>
+nnoremap tk  :tabprev<CR>
+nnoremap tl  :tablast<CR>
+nnoremap tt  :tabedit<Space>
+nnoremap tn  :tabnext<Space>
+nnoremap tm  :tabm<Space>
+nnoremap td  :tabclose<CR>
+
 "Airline Configuration
 let g:airline_powerline_fonts=0
 let g:airline_theme='light'
