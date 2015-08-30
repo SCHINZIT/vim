@@ -61,6 +61,8 @@ set smartcase		" Do smart case matching
 
 let g:syntastic_javascript_checkers = ['eslint']
 
+let g:ycm_auto_trigger = 0
+let g:ycm_collect_identifiers_from_tags_files = 1
 "Airline Configuration
 let g:airline_powerline_fonts=0
 let g:airline_theme='light'
