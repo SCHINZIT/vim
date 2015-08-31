@@ -23,7 +23,7 @@ Plugin 'elzr/vim-json'
 Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-ragtag'
 Plugin 'tpope/vim-surround'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'ervandew/supertab'
 
 call vundle#end()
 
