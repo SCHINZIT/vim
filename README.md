@@ -33,6 +33,7 @@ git submodule update bundle/Vundle.vim
 vim +PluginInstall +qall
 
 !! You Complete Me !!
+!! Wird nicht mehr genutzt, für JS nicht gut !!
 
 Für das Addon You Complete Me müssen noch folgende Schritte unternommen werden:
 1.) apt-get install python-dev build-essential cmake
