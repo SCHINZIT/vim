@@ -24,6 +24,13 @@ Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-ragtag'
 Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
+Plugin 'justinj/vim-react-snippets'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'grassdog/tagman.vim'
+Plugin 'lambdatoast/elm.vim'
 
 call vundle#end()
 
