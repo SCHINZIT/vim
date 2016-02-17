@@ -32,6 +32,8 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'grassdog/tagman.vim'
 Plugin 'lambdatoast/elm.vim'
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-fireplace'
 
 call vundle#end()
 
