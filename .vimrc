@@ -52,6 +52,8 @@ set hidden
 set termencoding=utf-8
 
 set omnifunc=syntaxcomplete#Complete
+set hlsearch
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 syntax on
 
 " Colorscheme
