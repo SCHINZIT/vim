@@ -1,6 +1,6 @@
-# VIM Verzeichnis mit allen Modulen etc
+# My personal VIM configuration
 
-## Pathogen auf Vundle umgestellt
+## Using Vundle
 
 git submodule init bundle/Vundle.vim
 git submodule update bundle/Vundle.vim
