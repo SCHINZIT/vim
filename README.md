@@ -1,12 +1,16 @@
 # My personal VIM configuration
 
+## Vimrc
+
+The vimrc is located in this directory unter .vimrc.  
+Linking vimrc in homedirectory activates this vmirc.
+`ln -s ~/.vim/.vimrc ~/.vimrc`
+
 ## Using Vundle
 
-git submodule init bundle/Vundle.vim
-
-git submodule update bundle/Vundle.vim
-
-vim +PluginInstall +qall
+git submodule init bundle/Vundle.vim  
+git submodule update bundle/Vundle.vim  
+vim +PluginInstall +qall  
 
 
 ## Clojure specific
