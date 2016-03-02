@@ -77,6 +77,14 @@ set smartcase		" Do smart case matching
 " Syntastic settings
 let g:syntastic_javascript_checkers = ['eslint']
 
+" clojure specific
+let g:clojure_syntax_keywords = {
+  \ 'clojureDefine': ["defui", "def"]
+  \ }
+
+let g:clojure_fuzzy_indent = 1
+let g:clojure_fuzzy_indent_patterns = ['^query', '^params']
+
 " YouCompleteMe Settings
 let g:ycm_auto_trigger = 0
 let g:ycm_collect_identifiers_from_tags_files = 1

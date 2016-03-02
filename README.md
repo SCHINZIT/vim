@@ -25,3 +25,14 @@ Further documentation:
 - https://github.com/tpope/vim-fireplace
 - https://github.com/clojure-emacs/cider-nrepl
 
+In .vimrc some enhancements for clojurescript, just my personal flavor:
+
+```config
+" clojure specific
+let g:clojure_syntax_keywords = {
+  \ 'clojureDefine': ["defui", "def"]
+  \ }
+
+let g:clojure_fuzzy_indent = 1
+let g:clojure_fuzzy_indent_patterns = ['^query', '^params']
+```
